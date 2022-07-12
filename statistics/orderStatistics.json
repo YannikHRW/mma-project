@@ -1,0 +1,23 @@
+[
+  {
+    "ordersTotal": 4,
+    "annualOrders": [
+      {
+        "year": "2022",
+        "ordersTotal": 4,
+        "monthlyOrders": [
+          {
+            "month": "06",
+            "ordersTotal": 4,
+            "dailyOrders": [
+              {
+                "day": "19",
+                "ordersTotal": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
