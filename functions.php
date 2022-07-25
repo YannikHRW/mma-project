@@ -92,7 +92,7 @@ function isAdmin():bool {
  */
 function checkIfUserIsAdmin() {
     if (!isAdmin()) {
-        echo "<div class='row'><div class='col-6'><div class='small-box'><p class='error'>You are not authorized to do that!</p><a class='btn-typ-1' href='index.php'>Back to start!</a></div></div></div>";
+        echo "<div class='row'><div class='col-6'><div class='small-box'><p class='error'>You are not authorized to do that!</p><a class='btn-typ-1' href='index.php'>Back to start!</a></div></div></div></div>";
         require_once "footer.html";
         die();
     }
@@ -112,7 +112,7 @@ function isLoggedIn():bool {
  */
 function checkIfLoggedIn() {
     if (!isLoggedIn()){
-        echo "<div class='row'><div class='col-6'><div class='small-box'><p class='error'>Your are not logged in!</p><a class='btn-typ-1' href='login.php'>Log in!</a></div></div></div>";
+        echo "<div class='row'><div class='col-6'><div class='small-box'><p class='error'>Your are not logged in!</p><a class='btn-typ-1' href='login.php'>Log in!</a></div></div></div></div>";
         require_once "footer.html";
         die();
     }
