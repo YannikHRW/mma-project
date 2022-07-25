@@ -45,7 +45,9 @@ $productReviews = queryMysql("SELECT * FROM productReview WHERE userID='$userID'
 $productReviewsArray = mysqli_fetch_all($productReviews);
 
 if ($productReviews->num_rows == 0) {
-    die("<div class='row'><div class='col-6'><div class='small-box'><p>You haven't rated any product yet!</p><a class='btn-typ-1' href='index.php'>Back to start!</a></div>");
+    echo "<div class='row'><div class='col-6'><div class='small-box'><p>You haven't rated any product yet!</p><a class='btn-typ-1' href='index.php'>Back to start!</a></div></div></div></div>";
+    require_once "footer.html";
+    die();
 }
 
 echo                    '<div id="article-rows">';

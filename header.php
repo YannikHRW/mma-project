@@ -139,7 +139,7 @@ echo <<<_END
                             </a>
 
                             <div class="search-article-div">
-                                <input class="search-article-input" type="search" placeholder="Search for a product by the product title...">
+                                <input class="search-article-input" type="search" placeholder="Search...">
                             </div>
 
                             <div id="mobile-nav-dropdown">
@@ -208,4 +208,3 @@ echo <<<_END
             </nav>
             _END;
 
-?>

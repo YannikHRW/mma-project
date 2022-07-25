@@ -62,14 +62,14 @@ echo <<<_END
                 _END;
 ?>
                     <div>
-                        <button class="btn-typ-1" type="submit">Log In!</button>
+                        <button class="btn-typ-1" type="submit">Log In</button>
                     </div>
 
                 </form>
 
                     <div>
-                        <p>Not registered yet?</p>
-                        <a href="register.php" class="btn-typ-1" id="register-button">Register Now!</a>
+                        <p>New to this WebShop?</p>
+                        <a href="register.php" class="btn-typ-1" id="register-button">Create new account</a>
                     </div>
 
                 </div>

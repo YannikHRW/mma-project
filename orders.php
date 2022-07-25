@@ -40,7 +40,9 @@ $userID = $_SESSION['userID'];
 $ordersFromUser = queryMysql("SELECT * FROM orders WHERE userID='$userID'");
 
 if ($ordersFromUser->num_rows == 0) {
-    die("<div class='row'><div class='col-6'><div class='small-box'><p class='error'>You haven't ordered anything yet!</p><p>Back to</p><p><a href='index.php'>Start</a></p></div></div></div></div></section>");
+    echo "<div class='row'><div class='col-6'><div class='small-box'><p class='error'>You haven't ordered anything yet!</p><a class='btn-typ-1' href='index.php'>Back to start!</a></div></div></div></div></section>";
+    require_once "footer.html";
+    die();
 }
 
 $ordersFromUserArray = mysqli_fetch_all($ordersFromUser);

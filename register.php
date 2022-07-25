@@ -43,7 +43,7 @@ if (isset($_POST['firstName'])) {
     }
 }
 echo <<<_END
-            <h1>Register</h1>
+            <h1>Create account</h1>
             
             <form action="register.php" method="post">$error
 
@@ -69,14 +69,14 @@ echo <<<_END
             _END;
 ?>
 <div>
-    <button class="btn-typ-1" type="submit">Register!</button>
+    <button class="btn-typ-1" type="submit">Create new account</button>
 </div>
 
 </form>
 
 <div>
     <p>Do you already have an account?</p>
-    <a href="login.php" class="btn-typ-1" id="login-button">Log in!</a>
+    <a href="login.php" class="btn-typ-1" id="login-button">Sign in</a>
 </div>
 
 </div>

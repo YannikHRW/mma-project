@@ -118,7 +118,7 @@ echo <<<_END
                         Sum ($sumStock articles): <strong>$sumPrice €</strong>
                         <form action='orderProducts.php' method='post'>
                             <div>
-                                <button class='btn-typ-1' type='submit'>Purchase product/s!</button>
+                                <button class='btn-typ-1' type='submit'>Purchase product/s</button>
                             </div>
                         </form>
                     </div>
